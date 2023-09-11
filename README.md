@@ -1,4 +1,4 @@
-# TuneReads - E-commerce de Música e Livros :book::musical_note:
+# TuneReads - E-commerce de Música e Livros :musical_note::book:
 
 Bem-vindo ao projeto TuneReads! Este é um e-commerce especializado na venda de música e livros. Este README fornecerá uma visão geral das funcionalidades implementadas no projeto e como usá-las.
 
@@ -38,7 +38,7 @@ Permite filtrar produtos com base em seu tipo, como Livro ou Música. Isso é ú
 
   2. **Compilando e Executando:**
 
-     - Abra o projeto ContaBancaria no Visual Studio.
+     - Abra o projeto TuneReads no Visual Studio.
      - Compile o projeto.
      - Execute o programa.
 
