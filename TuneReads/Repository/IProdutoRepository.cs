@@ -11,5 +11,5 @@ public interface IProdutoRepository
     public void Deletar(int numero);
     
     public void ListarProdutosPorTitulo(string titulo);
-    public void ListarProdutosPorTipo(string tipo);
+    public void ListarProdutosPorTipo(int tipo);
 }

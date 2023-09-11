@@ -109,10 +109,10 @@ public abstract class Produto
         }
 
         Console.WriteLine($"\nDados do Produto: {this.id}\n" +
-                          "******************************" +
+                          "************************************************************" +
                           "\nTítulo: " + this.titulo +
-                          "\nTipo: " + tipo +
                           "\nAutor ou artista: " + this.autor +
+                          "\nTipo: " + tipo +
                           "\nValor: " + (this.preco).ToString("C") +
                           "\nEstoque: " + this.estoque +
                           "\nData de lançamento: " + this.dataLancamento.ToString("dd/MM/yyyy"));

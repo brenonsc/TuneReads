@@ -2,20 +2,20 @@ namespace TuneReads.Model;
 
 public class Musica : Produto
 {
-    public int formato;
+    public string formato;
     
-    public Musica(int id, string titulo, int tipo, string autor, decimal preco, int estoque, DateOnly dataLancamento, int formato) : base(id, titulo, tipo, autor, preco, estoque, dataLancamento)
+    public Musica(int id, string titulo, int tipo, string autor, decimal preco, int estoque, DateOnly dataLancamento, string formato) : base(id, titulo, tipo, autor, preco, estoque, dataLancamento)
     {
         this.formato = formato;
     }
     
     //Métodos getters e setters
-    public int GetFormato()
+    public string GetFormato()
     {
         return formato;
     }
     
-    public void SetFormato(int formato)
+    public void SetFormato(string formato)
     {
         this.formato = formato;
     }
@@ -24,6 +24,6 @@ public class Musica : Produto
     {
         base.Visualizar();
         Console.WriteLine("Formato: " + formato +
-                          "\n*****************************");
+                          "\n************************************************************");
     }
 }

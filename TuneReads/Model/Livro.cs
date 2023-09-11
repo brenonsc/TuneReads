@@ -37,6 +37,6 @@ public class Livro : Produto
         base.Visualizar();
         Console.WriteLine("Editora: " + editora +
                           "\nNúmero de páginas: " + numeroPaginas +
-                          "\n*****************************");
+                          "\n************************************************************");
     }
 }
