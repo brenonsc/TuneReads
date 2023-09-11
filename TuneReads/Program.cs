@@ -37,7 +37,7 @@ class Program
             catch (FormatException)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\nDigite um valor inteiro entre 1 e 9!\n");
+                Console.WriteLine("\nDigite um valor inteiro entre 1 e 8!\n");
                 opcao = 0;
                 Console.ResetColor();
                 KeyPress();
