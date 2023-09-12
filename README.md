@@ -31,18 +31,18 @@ Permite filtrar produtos com base em seu tipo, como Livro ou Música. Isso é ú
 
 - ## Como usar o projeto
 
-  1. **Pré-requisitos:**
+  **Pré-requisitos:**
 
      - Certifique-se de ter o Visual Studio ou uma IDE compatível com C# instalada em seu computador.
      - Clone ou faça o download deste repositório para sua máquina local.
 
-  2. **Compilando e Executando:**
+  **Compilando e Executando:**
 
      - Abra o projeto TuneReads no Visual Studio.
      - Compile o projeto.
      - Execute o programa.
 
-  3. **Utilizando o sistema:**
+  **Utilizando o sistema:**
 
      - O programa fornecerá um menu interativo no console, onde você pode escolher entre as diferentes opções disponíveis.
 
